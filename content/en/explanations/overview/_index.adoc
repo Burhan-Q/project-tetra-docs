@@ -1,13 +1,13 @@
 
 ---
-title: "Project Tetra Overview"
-linkTitle: "Project Tetra Overview"
+title: "Executive Summary"
+linkTitle: "Executive Summary"
 weight: 1
 description: >
-  Broad overview of project tetra.
+  Broad summary and context of Project Tetra.
 ---
 
-== Executive Summary
+== Project Tetra Overview
 
 Current medical standard operating procedure requires that patients who become severely ill with COVID-19 be treated using external ventilation.
 As the virus spreads, projections suggest that there are not enough ventilators to meet the expected numbers of patients throughout the world.
@@ -72,7 +72,7 @@ Figure 2 lays out the core components of the device.
 ._Figure 2: High-level schematics of the Tetra system. Air flows from the ventilator to the inspiratory arm, with separate patients isolated by one-way valves, through flow-control valves and shutoff valves, to the patient. The expired air travels back through a flow meter, a PEEP valve to ensure the patient still has air pressure in their lungs at the end of the breath, and through another one-way valve back to the ventilator._
 [plantuml, ibd-ventilator-splitter-assembly, svg]
 ....
-include::src/system_model/ibd-ventilator-splitter-assembly.puml[]
+include::system_model/ibd-system-ventilator-splitter-assembly-airflow.puml[]
 ....
 
 
